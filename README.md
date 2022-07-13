@@ -12,7 +12,7 @@ Today you're gonna learn you what jenkins file is, how to create it and what the
 
 As a newly hired DevOps Engineer at a compagny called EvilCorp. The company is spcialized in cipher algorithm development implemented in Java.
 
-Given this Github Repo, you have been asked to make sure that the application build process (build/test/release/deploy) can be done each time a developer makes a commit on the main branch using Jenkins declarative pipeline living inside a 'jenkinsfile' inside the repo. Please note that this project as already been setup with Gradle as the build/test tool. At least for the testing part. Infact, currently, if a developer tries to build the project, the resultant 'jar' artifact will produce an error when executed.
+Given this [Github Repo](https://github.com/YoussF/caesar-cipher), you have been asked to make sure that the application build process (build/test/release/deploy) can be done each time a developer makes a commit on the main branch using Jenkins declarative pipeline living inside a 'jenkinsfile' inside the repo. Please note that this project as already been setup with Gradle as the build/test tool. At least for the testing part. Infact, currently, if a developer tries to build the project, the resultant 'jar' artifact will produce an error when executed.
 
 no main manifest attribute, in build/libs/caesars-cipher.jar
 This error is due to the lack of configuration within the build.gradle file. In order to fix the error above you have to search the documentation to see how you can tell gradle which java class he has to associate with the produced jar file. This is the output of a correctly running app.
